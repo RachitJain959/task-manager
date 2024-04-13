@@ -214,3 +214,10 @@ textarea {
   letter-spacing: var(--letterSpacing);
   text-transform: capitalize;
 }
+.task-form,
+.single-task-form {
+  width: 90vw;
+  max-width: var(--fixed-width);
+  margin: 0 auto;
+  margin-top: 6rem;
+}

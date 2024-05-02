@@ -35,4 +35,12 @@
   --grey-900: #51545a;
   --grey-1000: #333538;
   --grey-1100: #141516;
+
+  /* rest */
+  --black: #222;
+  --white: #fff;
+  --red-light: #f8d7da;
+  --red-dark: #842029;
+  --green-light: #d1e7dd;
+  --green-dark: #0f5132;
 }

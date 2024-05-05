@@ -48,4 +48,12 @@
   --headingFont: "Inconsolata", monospace;
   --bodyFont: "Montserrat", sans-serif;
   --smallText: 0.7em;
+  /* rest */
+  --backgroundColor: var(--grey-50);
+  --textColor: var(--grey-1000);
+  --borderRadius: 0.25rem;
+  --letterSpacing: 1px;
+  --transition: 0.3s ease-in-out all;
+  --max-width: 1120px;
+  --fixed-width: 600px;
 }

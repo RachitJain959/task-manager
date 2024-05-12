@@ -116,3 +116,8 @@ h4 {
 h5 {
   font-size: 1.25rem;
 }
+
+small,
+.text-small {
+  font-size: var(--smallText);
+}

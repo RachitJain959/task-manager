@@ -157,3 +157,8 @@ button.small {
   padding: 0.25rem 0.5rem;
   font-size: var(--smallText);
 }
+button.hipster {
+  color: var(--primary-500);
+  background: var(--primary-50);
+  box-shadow: var(--shadow-1);
+}

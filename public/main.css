@@ -224,3 +224,6 @@ textarea {
 .task-form h4 {
   text-align: center;
 }
+.task-form .form-alert {
+  margin-top: 1rem;
+}

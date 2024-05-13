@@ -166,3 +166,6 @@ button.hipster:hover {
   background: var(--primary-100);
   box-shadow: var(--shadow-2);
 }
+button.block {
+  width: 100%;
+}

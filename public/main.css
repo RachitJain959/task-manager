@@ -153,3 +153,7 @@ a {
   background: var(--primary-700);
   box-shadow: var(--shadow-2);
 }
+button.small {
+  padding: 0.25rem 0.5rem;
+  font-size: var(--smallText);
+}

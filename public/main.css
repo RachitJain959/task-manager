@@ -180,3 +180,9 @@ form {
   box-shadow: var(--shadow-2);
   padding: 2rem 2.5rem;
 }
+label {
+  display: block;
+  font-size: var(--smallText);
+  margin-bottom: 0.5rem;
+  text-transform: capitalize;
+}

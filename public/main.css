@@ -169,3 +169,14 @@ button.hipster:hover {
 button.block {
   width: 100%;
 }
+
+/*************
+     FORM 
+*************/
+form {
+  width: 100%;
+  background: var(--white);
+  border-radius: var(--borderRadius);
+  box-shadow: var(--shadow-2);
+  padding: 2rem 2.5rem;
+}

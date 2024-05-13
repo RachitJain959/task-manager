@@ -162,3 +162,7 @@ button.hipster {
   background: var(--primary-50);
   box-shadow: var(--shadow-1);
 }
+button.hipster:hover {
+  background: var(--primary-100);
+  box-shadow: var(--shadow-2);
+}

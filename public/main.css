@@ -204,3 +204,7 @@ textarea {
   width: 100%;
   height: 7rem;
 }
+
+::placeholder {
+  color: var(--grey-600);
+}

@@ -196,3 +196,6 @@ textarea {
   border-color: transparent;
   border: 1px solid var(--grey-300);
 }
+.form-row {
+  margin-bottom: 1rem;
+}

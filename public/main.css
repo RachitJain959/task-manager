@@ -248,3 +248,6 @@ textarea {
     border-bottom-right-radius: var(--borderRadius);
   }
 }
+form > :first-child {
+  margin-top: 0;
+}

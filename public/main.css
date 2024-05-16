@@ -231,3 +231,20 @@ textarea {
   width: 100%;
   margin-top: 1rem;
 }
+@media screen and (min-width: 576px) {
+  .form-control {
+    display: flex;
+  }
+  .task-input {
+    border-radius: 0;
+    border-top-left-radius: var(--borderRadius);
+    border-bottom-left-radius: var(--borderRadius);
+  }
+  .submit-btn {
+    margin-top: 0;
+    width: 175px;
+    border-radius: 0;
+    border-top-right-radius: var(--borderRadius);
+    border-bottom-right-radius: var(--borderRadius);
+  }
+}

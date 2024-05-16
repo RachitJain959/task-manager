@@ -254,3 +254,10 @@ form > :first-child {
 form > :last-child {
   margin-bottom: 0;
 }
+/* Basic Classes */
+.alert {
+  padding: 0.375rem 0.75rem;
+  margin-bottom: 1rem;
+  border-color: transparent;
+  border-radius: var(--borderRadius);
+}

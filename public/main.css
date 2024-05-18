@@ -269,3 +269,6 @@ form > :last-child {
   color: var(--red-dark);
   background-color: var(--red-light);
 }
+.text-danger {
+  color: var(--red-dark);
+}

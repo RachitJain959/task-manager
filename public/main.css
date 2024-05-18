@@ -272,3 +272,6 @@ form > :last-child {
 .text-danger {
   color: var(--red-dark);
 }
+.text-success {
+  color: var(--green-dark);
+}

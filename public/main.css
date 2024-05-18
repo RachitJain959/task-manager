@@ -292,3 +292,8 @@ form > :last-child {
 .loading {
   margin: 0 auto;
 }
+/* form loading */
+
+.form-loading {
+  position: relative;
+}

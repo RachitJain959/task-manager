@@ -265,3 +265,7 @@ form > :last-child {
   color: var(--green-dark);
   background-color: var(--green-light);
 }
+.alert-danger {
+  color: var(--red-dark);
+  background-color: var(--red-light);
+}

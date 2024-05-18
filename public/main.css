@@ -275,3 +275,9 @@ form > :last-child {
 .text-success {
   color: var(--green-dark);
 }
+/* loading */
+@keyframes spinner {
+  to {
+    transform: rotate(360deg);
+  }
+}

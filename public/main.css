@@ -261,3 +261,7 @@ form > :last-child {
   border-color: transparent;
   border-radius: var(--borderRadius);
 }
+.alert-success {
+  color: var(--green-dark);
+  background-color: var(--green-light);
+}

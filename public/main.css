@@ -328,3 +328,11 @@ form > :last-child {
 .empty-list {
   text-align: center;
 }
+.tasks-container {
+  width: 100%;
+  width: 90vw;
+  max-width: var(--fixed-width);
+  margin: 0 auto;
+  margin-top: 2rem;
+  padding-bottom: 4rem;
+}

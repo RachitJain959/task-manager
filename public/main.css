@@ -350,3 +350,6 @@ form > :last-child {
   justify-content: space-between;
   align-items: center;
 }
+.single-task:hover {
+  box-shadow: var(--shadow-4);
+}

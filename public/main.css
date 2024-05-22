@@ -353,3 +353,6 @@ form > :last-child {
 .single-task:hover {
   box-shadow: var(--shadow-4);
 }
+.single-task h5 {
+  margin-bottom: 0;
+}

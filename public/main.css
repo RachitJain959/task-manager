@@ -356,3 +356,10 @@ form > :last-child {
 .single-task h5 {
   margin-bottom: 0;
 }
+.single-task span {
+  display: inline-block;
+  width: 0.5rem;
+  height: 0.5rem;
+  margin-left: -1.25rem;
+  margin-right: 1.5rem;
+}

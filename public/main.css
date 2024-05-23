@@ -377,3 +377,9 @@ form > :last-child {
 .loading-text {
   visibility: hidden;
 }
+/* Task Links */
+.task-links {
+  display: flex;
+  align-items: center;
+  gap: 0 0.5rem;
+}

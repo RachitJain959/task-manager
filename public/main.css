@@ -374,3 +374,6 @@ form > :last-child {
 .task-completed .fa-check-circle {
   visibility: visible;
 }
+.loading-text {
+  visibility: hidden;
+}

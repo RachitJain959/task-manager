@@ -396,3 +396,10 @@ form > :last-child {
 .delete-btn {
   color: var(--red-dark);
 }
+/*************
+     SINGLE TASK
+*************/
+
+.single-task-form h4 {
+  text-align: center;
+}

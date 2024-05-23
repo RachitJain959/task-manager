@@ -383,3 +383,10 @@ form > :last-child {
   align-items: center;
   gap: 0 0.5rem;
 }
+.delete-btn,
+.edit-link {
+  background: transparent;
+  font-size: 0.75rem;
+  border: transparent;
+  cursor: pointer;
+}

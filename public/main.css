@@ -390,3 +390,6 @@ form > :last-child {
   border: transparent;
   cursor: pointer;
 }
+.edit-link {
+  color: var(--green-dark);
+}

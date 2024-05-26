@@ -415,3 +415,7 @@ form > :last-child {
   gap: 0 1rem;
   margin-bottom: 0.75rem;
 }
+.single-task-form label {
+  margin-bottom: 0;
+  font-size: 1rem;
+}

@@ -419,3 +419,6 @@ form > :last-child {
   margin-bottom: 0;
   font-size: 1rem;
 }
+.task-edit-completed {
+  width: auto;
+}

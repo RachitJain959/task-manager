@@ -422,3 +422,11 @@ form > :last-child {
 .task-edit-completed {
   width: auto;
 }
+.back-link {
+  display: block;
+  width: 250px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 6rem;
+  background: var(--black);
+}

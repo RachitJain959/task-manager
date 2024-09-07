@@ -11,19 +11,14 @@ const createTask = asyncWrapper(async (req, res) => {
   res.status(201).json({ tasks });
 });
 
-const getTask = async (req, res) => {
-  try {
-    const { id: taskID } = req.params;
-    const task = await Task.findOne({ _id: taskID });
+const getTask = asyncWrapper(async (req, res) => {
+  const tasks = await Task.findOne({ _id: taskID });
 
-    if (!task) {
-      return res.status(404).json({ msg: `no task with id: ${taskID} found!` });
-    }
-    res.status(200).json({ task });
-  } catch (error) {
-    res.status(500).json({ msg: error });
+  if (!task) {
+    return res.status(404).json({ msg: `no task with id: ${taskID} found!` });
   }
-};
+  res.status(200).json({ task });
+});
 
 const deleteTask = async (req, res) => {
   try {
